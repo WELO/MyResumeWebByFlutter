@@ -1,0 +1,156 @@
+{
+  "common_link": "Link",
+  "common_view_more": "View More",
+  "common_skill": "Skill：",
+  "title": "Amy's website",
+  "choose_EN": "English",
+  "choose_TW": "Traditional Chinese",
+  "hello_text": "I am Amy :)",
+  "about_me": "About Me",
+  "introduction": "An Android development engineer who is enthusiastic about Coding and loves to understand new technologies. I like to discusses the software architecture and thinking about how to decouple classes and keep the program readable with working partners. I also often works with teams in different fields and has good communication skills.",
+  "skill": "Skill",
+
+
+  "programming_language": "Programming Language",
+  "programming_language_JAVA": "Android JAVA",
+  "programming_language_JAVA_info": "MVVM, Rxjava, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber \n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAWS:\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line",
+  "programming_language_other_lang": "Other",
+  "programming_language_other_info": " C/C++(OpenCV, OpenGL, OpenPCL), Matlab, Python, R, Unity 3D, C#, HTML, Flutter(for this web site)",
+
+  "language_ability": "Language Ability",
+  "language_ability_info": "Chinese(Mother tongue), English(TOEIC 735), Japanese(N5)",
+
+
+  "working": "Working",
+
+  "working_sinica": "Academia Sinica Center for Digital Cultures",
+  "working_sinica_time": "Feb 2014 ~ Feb 2015",
+  "working_sinica_info": "Internship Software Engineer",
+  "working_gemteks": "Gemtek Technology Co., Ltd. SW1",
+  "working_gemteks_time": "Nov 2017 ~ present",
+  "working_gemteks_info": "Android Engineer",
+  "working_other_project": "Other",
+  "working_other_project_info": "School projects and self-learning",
+
+
+
+  "project_sinica_name": "Exhibition e-book image recognition",
+  "project_sinica_info": "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容",
+  "project_sinica_skill": "JAVA、Export jar、Image recognition algorithm",
+  "project_sinica_image_cover": "",
+  "project_sinica_image": "",
+
+  "project_ntust_1_name": "智慧化駕駛輔助系統術關鍵技術計畫",
+  "project_ntust_1_info": " 使用『基於3D點雲的多特徵行人偵測』，使用到LIDAR這個新技術設備，在研究時所尋資料較少，學習讀懂原文文件並實作，使用C++搭配openCV及openPCL撰寫程式並用matlab分析實驗數據，完成的成果得到與多所大學合作參與中科院「智慧化駕駛輔助系統術關鍵技術計畫」的機會。",
+  "project_ntust_1_skill": "C/C++(openCV, openPCL)、Matlab、python(Keras)",
+  "project_ntust_1_image_cover": "",
+  "project_ntust_1_image": "",
+
+  "project_ntust_2_name": "「魔術通」Android SIP APP",
+  "project_ntust_2_info": "產學合作，為冠北公司撰寫完成企業版及社區版，在學期間使用Git版本控管及學習與企業溝通協調的能力。",
+  "project_ntust_2_skill": "Android JAVA(SIP Voip, REST API, Google Map)",
+  "project_ntust_2_image_cover": "",
+  "project_ntust_2_image": "",
+
+  "project_other_1_name": "Lofter及AO3小說下載器",
+  "project_other_1_info": "填入Lofter或AO3小說的網址，即可在選擇的資料夾內儲存txt檔案，爬取網頁時會包含作者名及大綱與原文，若AO3為多章節小說，也會將多個章節儲存於同一個txt檔中。",
+  "project_other_1_skill": "Rxjava、Jsoup",
+  "project_other_1_image_cover": "res/assets/image/project_savenoval_cover.jpg",
+  "project_other_1_image": "",
+  "project_other_1_url": "https://github.com/WELO/SaveNovel",
+  "project_other_1_url_text": "點擊查看專案github",
+
+  "project_other_2_name": "個人網頁",
+  "project_other_2_info": "使用Flutter實作的個人網頁，可輸出成APP或web",
+  "project_other_2_skill": "Flutter dart, RWD",
+  "project_other_2_image_cover": "res/assets/image/project_resumeweb_cover.jpg",
+
+  "project_other_3_name": "其他在校專案實作",
+  "project_other_3_info": "大學時，在校實作專案列表，包含C/C++、R、Web網頁、Unity3D遊戲...，點擊查看更多可下載列表檢視。",
+  "project_other_3_skill": "C/C++(OpenCV, OpenGL, OpenPCL), Matlab, python, R, Unity 3D, C#, html,",
+  "project_other_3_image_cover": "",
+  "project_other_3_url": "https://drive.google.com/file/d/142eMplc6aeOUFceLISATfcNJ-Hgh19_0/view?usp=sharing",
+  "project_other_3_url_text": "點擊下載在校專案實作列表",
+
+
+  "project_gemtek_1_name": "SOUNDOT",
+  "project_gemtek_1_info": "與耳機串接的APP，可調整各頻率的EQ值並儲存，以及調整音效和3D音效。",
+  "project_gemtek_1_skill": "Rxjava、Databinding、Reservoir、Custum UI、MVVM、Retrofit2、Java8 lambda\nSocial Login：Google、Facebook、Twitter\nUSB connection (連結耳機)、讀懂Datasheet並且調整數值write to device(CP2615)\nExport SDK with progaud（提供串接耳機的SDK給客戶使用）\n",
+  "project_gemtek_1_image_cover": "res/assets/image/project_soundot_cover.jpg",
+
+
+  "project_gemtek_2_name": "SOUNDOT 產測程式",
+  "project_gemtek_2_info": "提供測試用ＡＰＰ給生產工廠確認耳機功能",
+  "project_gemtek_2_skill": "NDK for echo、USB connection (連結耳機)",
+  "project_gemtek_2_image_cover": "res/assets/image/project_soundot_test_cover.jpg",
+
+  "project_gemtek_3_name": "Gemteks Portal App",
+  "project_gemtek_3_info": "公司內部系統APP，可簽核假單、顯示當前剩餘休假時數、顯示名片",
+  "project_gemtek_3_skill": "Rxjava、Databinding、MVVM、Java8 lambda",
+  "project_gemtek_3_image_cover": "res/assets/image/project_portal_cover.jpg",
+
+
+  "project_gemtek_4_name": "商用咖啡機APP",
+  "project_gemtek_4_info": "串接大型咖啡機，連接雲端取得可沖泡咖啡列表及咖啡參數，下指令沖泡咖啡，並帶有工程版模式，可供工程人員安裝設定及設定清洗時間和調整參數。",
+  "project_gemtek_4_skill": "Android launcher、Rxjava、Databinding、MVVM、MQTT、Export SDK with progaurd、OTA更新、反編譯系統framework去除系統狀態列及虛擬按鈕、Custum UI",
+  "project_gemtek_4_image_cover": "",
+
+
+  "project_gemtek_5_name": "Kid守護王",
+  "project_gemtek_5_info": "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。",
+  "project_gemtek_5_skill": "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、Custum UI\nFirebase : Cloud Message, Realtime DB, Authentication, \nGoogle: Map, Google analytics\n",
+  "project_gemtek_5_image_cover": "res/assets/image/project_parentalcontrol_cover.jpg",
+  "project_gemtek_5_url": "https://news.cnyes.com/news/id/4246599",
+  "project_gemtek_5_url_text": "相關新聞",
+
+  "project_gemtek_6_name": "智慧安全帽APP",
+  "project_gemtek_6_info": "智慧安全帽，主要協助原本的code將原先Map功能修改成Mapbox，其中包含地圖顯示及導航，並且傳送導航方向至安全帽顯示",
+  "project_gemtek_6_skill": "MapBox 地圖顯示及導航功能",
+  "project_gemtek_6_image_cover": "",
+
+
+  "project_gemtek_7_name": "RangeHood",
+  "project_gemtek_7_info": "控制抽油煙機的ＡＰＰ，串接AWS IOT、且用BLE藍芽連線抽油煙機修改晶片連線wifi",
+  "project_gemtek_7_skill": "BLE藍芽連線、Rxjava、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n",
+  "project_gemtek_7_image_cover": "",
+
+
+  "project_gemtek_8_name": "SPAK",
+  "project_gemtek_8_info": "優化先前的Kid守護王，算是完全由我們team規劃、決定功能、討論架構的APP",
+  "project_gemtek_8_skill": "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、viewpager2、Java8 lambda、LiveData, Lifecycle ViewModel、Apollo GraphQL、Navigation、Custum UI、Offline First\nFirebase : Cloud Message, Authentication, \nSocial Login: Facebook, Line\n",
+  "project_gemtek_8_image_cover": "res/assets/image/project_SPAK_cover.jpg",
+
+
+  "project_gemtek_9_name": "其他工廠相關之APP",
+  "project_gemtek_9_info": "協助工廠開發之APP，如掃碼上傳工單APP、工廠redmine、AcerTag綁定解綁APP",
+  "project_gemtek_9_skill":"串接接收器或工廠API做綁定解綁",
+  "project_gemtek_9_image_cover": "",
+
+
+  "education": "Education",
+  "education_ntust_schoolName": "Dept. of CSIE, National Taiwan University of Science and Technology, Taipei, Taiwan",
+  "education_ntust_time": "Sep 2015 ~ June 2017",
+  "education_ntust_otherInfo": "『IEEE ICME International Conference』(2017)、『The Phi Tau Phi Scholastic Honor Society』(2017)、『Master's Thesis Award of the Information Society of the Republic of China』(2018)",
+  "education_ntust_thesis": "Thesis",
+  "education_ntust_IEEE_paper_1_title": "Multi-cue pedestrian detection from 3D point cloud data  ",
+  "education_ntust_IEEE_paper_1_info": "2017 IEEE International Conference on Multimedia & Expo (ICME)",
+  "education_ntust_IEEE_paper_2_title": "Pedestrian Detection from Lidar Data via Cooperative Deep and Hand-Crafted Features  ",
+  "education_ntust_IEEE_paper_2_info": "2018 25th IEEE International Conference on Image Processing (ICIP)",
+  "education_yzu_schoolName": "Dept. of CSE, Yuan Ze University, Taoyuan, Taiwan",
+  "education_yzu_time": "Sep 2011 ~ June 2015",
+  "education_yzu_otherInfo": "『No. 2 school scholarship』(2013)、『Award of Volunteer』(2013)、『No. 3 school scholarship』(2014)、『Conceptual Product Competition Superior』(2015)",
+
+
+  "contact_me": "Contact Me",
+  "contact_me_hint": "You can contact me by email",
+  "contact_me_my_info": "My Info",
+  "contact_me_email": "any26323039@gmail.com",
+  "contact_me_send_me_meaasge": "Send me meaasge",
+  "contact_me_input_name_hint": "Name",
+  "contact_me_input_email_hint": "Email",
+  "contact_me_input_message_hint": "Message",
+  "contact_me_submit": "Submit (Building)",
+  "contact_me_input_invalid": "please enter data ><",
+  "contact_me_submit_success": "Submit Success! Thank you :)"
+
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "311791364166",
+    "firebase_url": "https://weloprofile.firebaseio.com",
+    "project_id": "weloprofile",
+    "storage_bucket": "weloprofile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311791364166:android:b245b3ac7126df8254c247",
+        "android_client_info": {
+          "package_name": "welo.flutter_my_profile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311791364166-e420rk1srcqq3pcvr9l664k90aurjiia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUd87riRWxzBmgwF_x6mnyl0qTJ9Z7Qz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311791364166-e420rk1srcqq3pcvr9l664k90aurjiia.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311791364166-ri6ch2ifs4n77q23vtrko05mjc70g9co.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "welo.flutterMyProfile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

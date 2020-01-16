@@ -98,7 +98,7 @@ class S implements WidgetsLocalizations {
   String get project_gemtek_9_name => "其他工廠相關之APP";
   String get project_gemtek_9_skill => "串接接收器或工廠API做綁定解綁";
   String get project_ntust_1_image => "";
-  String get project_ntust_1_image_cover => "";
+  String get project_ntust_1_image_cover => "res/assets/image/project_lidar_cover.jpg";
   String get project_ntust_1_info => " 使用『基於3D點雲的多特徵行人偵測』，使用到LIDAR這個新技術設備，在研究時所尋資料較少，學習讀懂原文文件並實作，使用C++搭配openCV及openPCL撰寫程式並用matlab分析實驗數據，完成的成果得到與多所大學合作參與中科院「智慧化駕駛輔助系統術關鍵技術計畫」的機會。";
   String get project_ntust_1_name => "智慧化駕駛輔助系統術關鍵技術計畫";
   String get project_ntust_1_skill => "C/C++(openCV, openPCL)、Matlab、python(Keras)";
@@ -125,8 +125,8 @@ class S implements WidgetsLocalizations {
   String get project_other_3_url => "https://drive.google.com/file/d/142eMplc6aeOUFceLISATfcNJ-Hgh19_0/view?usp=sharing";
   String get project_other_3_url_text => "點擊下載在校專案實作列表";
   String get project_sinica_image => "";
-  String get project_sinica_image_cover => "";
-  String get project_sinica_info => "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容";
+  String get project_sinica_image_cover => "res/assets/image/project_sinica_cover.jpg";
+  String get project_sinica_info => "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容，此專案有實際運用於該展覽當中，成為該展覽的數位互動裝置之一。";
   String get project_sinica_name => "Exhibition e-book image recognition";
   String get project_sinica_skill => "JAVA、Export jar、Image recognition algorithm";
   String get skill => "Skill";
@@ -217,7 +217,7 @@ class $zh_TW extends S {
   @override
   String get project_other_2_name => "個人網頁";
   @override
-  String get project_ntust_1_image_cover => "";
+  String get project_ntust_1_image_cover => "res/assets/image/project_lidar_cover.jpg";
   @override
   String get language_ability => "語言能力";
   @override
@@ -293,7 +293,7 @@ class $zh_TW extends S {
   @override
   String get contact_me_hint => "可透過下方資訊聯絡我，謝謝：）";
   @override
-  String get project_sinica_image_cover => "";
+  String get project_sinica_image_cover => "res/assets/image/project_sinica_cover.jpg";
   @override
   String get project_gemtek_6_name => "智慧安全帽APP";
   @override
@@ -343,7 +343,7 @@ class $zh_TW extends S {
   @override
   String get project_gemtek_7_skill => "BLE藍芽連線、Rxjava、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n";
   @override
-  String get project_sinica_info => "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容";
+  String get project_sinica_info => "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容，此專案有實際運用於該展覽當中，成為該展覽的數位互動裝置之一。";
   @override
   String get project_gemtek_7_info => "控制抽油煙機的ＡＰＰ，串接AWS IOT、且用BLE藍芽連線抽油煙機修改晶片連線wifi";
   @override

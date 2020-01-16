@@ -27,6 +27,7 @@ class TypewriterText extends StatelessWidget {
                 playback: Playback.LOOP,
                 duration: Duration(milliseconds: 600),
                 tween: IntTween(begin: 0, end: 1),
+                delay: Duration(milliseconds: 1300),
                 builder: (context, oneOrZero) {
                   return Opacity(
                       opacity: oneOrZero == 1 ? 1.0 : 0.0,

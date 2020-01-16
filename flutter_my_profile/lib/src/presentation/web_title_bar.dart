@@ -21,10 +21,7 @@ class WebTitleBar extends StatelessWidget {
           decoration: new BoxDecoration(
             image: DecorationImage(
                 fit: BoxFit.cover,
-                image: AssetImage("res/assets/image/basic_background.jpg")
-//                image: NetworkImage(
-//                    "https://images.unsplash.com/photo-1501075194766-25dad883d9ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1558&q=80")
-            ),
+                image: AssetImage("res/assets/image/basic_background.jpg")),
           ),
         ),
         new Container(
@@ -37,7 +34,7 @@ class WebTitleBar extends StatelessWidget {
             builder: (context, width) {
               return new Container(
                 alignment: Alignment.center,
-                decoration: boxDecoration,
+                //decoration: boxDecoration,
                 width: width,
                 height: 200,
                 child: isEnoughRoomForTypewriter(width)
@@ -52,11 +49,11 @@ class WebTitleBar extends StatelessWidget {
   }
 
   onBottom(Widget child) => Positioned.fill(
-    child: Align(
-      alignment: Alignment.bottomCenter,
-      child: child,
-    ),
-  );
+        child: Align(
+          alignment: Alignment.bottomCenter,
+          child: child,
+        ),
+      );
 
   isEnoughRoomForTypewriter(width) => width > 50;
 }

@@ -35,15 +35,15 @@
 
 
   "project_sinica_name": "Exhibition e-book image recognition",
-  "project_sinica_info": "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容",
+  "project_sinica_info": "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容，此專案有實際運用於該展覽當中，成為該展覽的數位互動裝置之一。",
   "project_sinica_skill": "JAVA、Export jar、Image recognition algorithm",
-  "project_sinica_image_cover": "",
+  "project_sinica_image_cover": "res/assets/image/project_sinica_cover.jpg",
   "project_sinica_image": "",
 
   "project_ntust_1_name": "智慧化駕駛輔助系統術關鍵技術計畫",
   "project_ntust_1_info": " 使用『基於3D點雲的多特徵行人偵測』，使用到LIDAR這個新技術設備，在研究時所尋資料較少，學習讀懂原文文件並實作，使用C++搭配openCV及openPCL撰寫程式並用matlab分析實驗數據，完成的成果得到與多所大學合作參與中科院「智慧化駕駛輔助系統術關鍵技術計畫」的機會。",
   "project_ntust_1_skill": "C/C++(openCV, openPCL)、Matlab、python(Keras)",
-  "project_ntust_1_image_cover": "",
+  "project_ntust_1_image_cover": "res/assets/image/project_lidar_cover.jpg",
   "project_ntust_1_image": "",
 
   "project_ntust_2_name": "「魔術通」Android SIP APP",

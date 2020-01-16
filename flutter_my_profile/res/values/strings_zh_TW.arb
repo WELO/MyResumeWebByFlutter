@@ -59,9 +59,11 @@
   "project_other_1_url_text": "點擊查看專案github",
 
   "project_other_2_name": "個人網頁",
-  "project_other_2_info": "使用Flutter實作的個人網頁，可輸出成APP或web",
-  "project_other_2_skill": "Flutter dart, RWD",
+  "project_other_2_info": "使用Flutter實作的個人網頁，可輸出成APP或web，由於Flutter Web網頁需loading較長的時間，因此有自行修改index.html，增加loading動畫及文字。",
+  "project_other_2_skill": "Flutter dart, RWD, Html",
   "project_other_2_image_cover": "res/assets/image/project_resumeweb_cover.jpg",
+  "project_other_2_url": "https://github.com/WELO/MyResumeWebByFlutter",
+  "project_other_2_url_text": "點擊查看專案github",
 
   "project_other_3_name": "其他在校專案實作",
   "project_other_3_info": "大學時，在校實作專案列表，包含C/C++、R、Web網頁、Unity3D遊戲...，點擊查看更多可下載列表檢視。",

@@ -143,8 +143,8 @@ class LocalData {
                 discription: S.of(_context).project_other_2_info,
                 skillInfo: S.of(_context).project_other_2_skill,
                 coverImageUri: S.of(_context).project_other_2_image_cover,
-                projectUrl: "",
-                projectUrlText: ""),
+                projectUrl: S.of(_context).project_other_2_url,
+                projectUrlText: S.of(_context).project_other_2_url_text),
             ProjectViewModel(
                 projectName: S.of(_context).project_other_3_name,
                 discription: S.of(_context).project_other_3_info,

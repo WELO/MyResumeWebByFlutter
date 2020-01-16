@@ -115,9 +115,11 @@ class S implements WidgetsLocalizations {
   String get project_other_1_url => "https://github.com/WELO/SaveNovel";
   String get project_other_1_url_text => "點擊查看專案github";
   String get project_other_2_image_cover => "res/assets/image/project_resumeweb_cover.jpg";
-  String get project_other_2_info => "使用Flutter實作的個人網頁，可輸出成APP或web";
+  String get project_other_2_info => "使用Flutter實作的個人網頁，可輸出成APP或web，由於Flutter Web網頁需loading較長的時間，因此有自行修改index.html，增加loading動畫及文字。";
   String get project_other_2_name => "個人網頁";
-  String get project_other_2_skill => "Flutter dart, RWD";
+  String get project_other_2_skill => "Flutter dart, RWD, Html";
+  String get project_other_2_url => "https://github.com/WELO/MyResumeWebByFlutter";
+  String get project_other_2_url_text => "點擊查看專案github";
   String get project_other_3_image_cover => "";
   String get project_other_3_info => "大學時，在校實作專案列表，包含C/C++、R、Web網頁、Unity3D遊戲...，點擊查看更多可下載列表檢視。";
   String get project_other_3_name => "其他在校專案實作";
@@ -165,6 +167,8 @@ class $zh_TW extends S {
   @override
   String get education_ntust_schoolName => "臺灣科技大學/資訊工程研究所/多媒體暨視覺運算實驗室";
   @override
+  String get project_other_2_url_text => "點擊查看專案github";
+  @override
   String get about_me => "關於我";
   @override
   String get project_gemtek_4_info => "串接大型咖啡機，連接雲端取得可沖泡咖啡列表及咖啡參數，下指令沖泡咖啡，並帶有工程版模式，可供工程人員安裝設定及設定清洗時間和調整參數。";
@@ -174,6 +178,8 @@ class $zh_TW extends S {
   String get project_gemtek_5_url_text => "相關新聞";
   @override
   String get choose_TW => "繁體中文";
+  @override
+  String get project_other_2_url => "https://github.com/WELO/MyResumeWebByFlutter";
   @override
   String get project_gemtek_2_skill => "NDK for echo、USB connection (連結耳機)";
   @override
@@ -253,7 +259,7 @@ class $zh_TW extends S {
   @override
   String get project_gemtek_5_info => "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。";
   @override
-  String get project_other_2_skill => "Flutter dart, RWD";
+  String get project_other_2_skill => "Flutter dart, RWD, Html";
   @override
   String get project_gemtek_6_image_cover => "";
   @override
@@ -309,7 +315,7 @@ class $zh_TW extends S {
   @override
   String get project_ntust_2_name => "「魔術通」Android SIP APP";
   @override
-  String get project_other_2_info => "使用Flutter實作的個人網頁，可輸出成APP或web";
+  String get project_other_2_info => "使用Flutter實作的個人網頁，可輸出成APP或web，由於Flutter Web網頁需loading較長的時間，因此有自行修改index.html，增加loading動畫及文字。";
   @override
   String get project_other_3_url => "https://drive.google.com/file/d/142eMplc6aeOUFceLISATfcNJ-Hgh19_0/view?usp=sharing";
   @override

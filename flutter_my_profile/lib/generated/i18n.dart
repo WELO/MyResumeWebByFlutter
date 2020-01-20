@@ -56,13 +56,13 @@ class S implements WidgetsLocalizations {
   String get language_ability_info => "Chinese(Mother tongue), English(TOEIC 735), Japanese(N5)";
   String get programming_language => "Programming Language";
   String get programming_language_JAVA => "Android JAVA";
-  String get programming_language_JAVA_info => "MVVM, Rxjava, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber \n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAWS:\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
+  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
   String get programming_language_other_info => " C/C++(OpenCV, OpenGL, OpenPCL), Matlab, Python, R, Unity 3D, C#, HTML, Flutter(for this web site)";
   String get programming_language_other_lang => "Other";
   String get project_gemtek_1_image_cover => "res/assets/image/project_soundot_cover.jpg";
   String get project_gemtek_1_info => "與耳機串接的APP，可調整各頻率的EQ值並儲存，以及調整音效和3D音效。";
   String get project_gemtek_1_name => "SOUNDOT";
-  String get project_gemtek_1_skill => "Rxjava、Databinding、Reservoir、Custum UI、MVVM、Retrofit2、Java8 lambda\nSocial Login：Google、Facebook、Twitter\nUSB connection (連結耳機)、讀懂Datasheet並且調整數值write to device(CP2615)\nExport SDK with progaud（提供串接耳機的SDK給客戶使用）\n";
+  String get project_gemtek_1_skill => "Rxjava2、Databinding、Reservoir、Custum UI、MVVM、Retrofit2、Java8 lambda\nSocial Login：Google、Facebook、Twitter\nUSB connection (連結耳機)、讀懂Datasheet並且調整數值write to device(CP2615)\nExport SDK with progaud（提供串接耳機的SDK給客戶使用）\n";
   String get project_gemtek_2_image_cover => "res/assets/image/project_soundot_test_cover.jpg";
   String get project_gemtek_2_info => "提供測試用ＡＰＰ給生產工廠確認耳機功能";
   String get project_gemtek_2_name => "SOUNDOT 產測程式";
@@ -70,15 +70,15 @@ class S implements WidgetsLocalizations {
   String get project_gemtek_3_image_cover => "res/assets/image/project_portal_cover.jpg";
   String get project_gemtek_3_info => "公司內部系統APP，可簽核假單、顯示當前剩餘休假時數、顯示名片";
   String get project_gemtek_3_name => "Gemteks Portal App";
-  String get project_gemtek_3_skill => "Rxjava、Databinding、MVVM、Java8 lambda";
+  String get project_gemtek_3_skill => "Rxjava2、Databinding、MVVM、Java8 lambda";
   String get project_gemtek_4_image_cover => "";
   String get project_gemtek_4_info => "串接大型咖啡機，連接雲端取得可沖泡咖啡列表及咖啡參數，下指令沖泡咖啡，並帶有工程版模式，可供工程人員安裝設定及設定清洗時間和調整參數。";
   String get project_gemtek_4_name => "商用咖啡機APP";
-  String get project_gemtek_4_skill => "Android launcher、Rxjava、Databinding、MVVM、MQTT、Export SDK with progaurd、OTA更新、反編譯系統framework去除系統狀態列及虛擬按鈕、Custum UI";
+  String get project_gemtek_4_skill => "Android launcher、Rxjava2、Databinding、MVVM、MQTT、Export SDK with progaurd、OTA更新、反編譯系統framework去除系統狀態列及虛擬按鈕、Custum UI";
   String get project_gemtek_5_image_cover => "res/assets/image/project_parentalcontrol_cover.jpg";
-  String get project_gemtek_5_info => "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。";
+  String get project_gemtek_5_info => "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。\n此專案採敏捷式開發，利用看板模式執行Scrum。";
   String get project_gemtek_5_name => "Kid守護王";
-  String get project_gemtek_5_skill => "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、Custum UI\nFirebase : Cloud Message, Realtime DB, Authentication, \nGoogle: Map, Google analytics\n";
+  String get project_gemtek_5_skill => "Rxjava2、Databinding、MVVM、Glide、Room DB、AccessibilityService、Custum UI\nFirebase : Cloud Message, Realtime DB, Authentication, \nGoogle: Map, Google analytics\n";
   String get project_gemtek_5_url => "https://news.cnyes.com/news/id/4246599";
   String get project_gemtek_5_url_text => "相關新聞";
   String get project_gemtek_6_image_cover => "";
@@ -88,11 +88,11 @@ class S implements WidgetsLocalizations {
   String get project_gemtek_7_image_cover => "";
   String get project_gemtek_7_info => "控制抽油煙機的ＡＰＰ，串接AWS IOT、且用BLE藍芽連線抽油煙機修改晶片連線wifi";
   String get project_gemtek_7_name => "RangeHood";
-  String get project_gemtek_7_skill => "BLE藍芽連線、Rxjava、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n";
+  String get project_gemtek_7_skill => "BLE藍芽連線、Rxjava2、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n";
   String get project_gemtek_8_image_cover => "res/assets/image/project_SPAK_cover.jpg";
   String get project_gemtek_8_info => "優化先前的Kid守護王，算是完全由我們team規劃、決定功能、討論架構的APP";
   String get project_gemtek_8_name => "SPAK";
-  String get project_gemtek_8_skill => "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、viewpager2、Java8 lambda、LiveData, Lifecycle ViewModel、Apollo GraphQL、Navigation、Custum UI、Offline First\nFirebase : Cloud Message, Authentication, \nSocial Login: Facebook, Line\n";
+  String get project_gemtek_8_skill => "Rxjava2、Databinding、MVVM、Glide、Room DB、AccessibilityService、viewpager2、Java8 lambda、LiveData, Lifecycle ViewModel、Apollo GraphQL、Navigation、Custum UI、Offline First\nFirebase : Cloud Message, Authentication, \nSocial Login: Facebook, Line\n";
   String get project_gemtek_9_image_cover => "";
   String get project_gemtek_9_info => "協助工廠開發之APP，如掃碼上傳工單APP、工廠redmine、AcerTag綁定解綁APP";
   String get project_gemtek_9_name => "其他工廠相關之APP";
@@ -111,7 +111,7 @@ class S implements WidgetsLocalizations {
   String get project_other_1_image_cover => "res/assets/image/project_savenoval_cover.jpg";
   String get project_other_1_info => "填入Lofter或AO3小說的網址，即可在選擇的資料夾內儲存txt檔案，爬取網頁時會包含作者名及大綱與原文，若AO3為多章節小說，也會將多個章節儲存於同一個txt檔中。";
   String get project_other_1_name => "Lofter及AO3小說下載器";
-  String get project_other_1_skill => "Rxjava、Jsoup";
+  String get project_other_1_skill => "Rxjava2、Jsoup";
   String get project_other_1_url => "https://github.com/WELO/SaveNovel";
   String get project_other_1_url_text => "點擊查看專案github";
   String get project_other_2_image_cover => "res/assets/image/project_resumeweb_cover.jpg";
@@ -193,7 +193,7 @@ class $zh_TW extends S {
   @override
   String get education_ntust_time => "Sep 2015 ~ June 2017";
   @override
-  String get programming_language_JAVA_info => "MVVM, Rxjava, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAWS:\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
+  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
   @override
   String get project_other_1_image => "";
   @override
@@ -205,7 +205,7 @@ class $zh_TW extends S {
   @override
   String get programming_language_JAVA => "Android JAVA";
   @override
-  String get project_gemtek_4_skill => "Android launcher、Rxjava、Databinding、MVVM、MQTT、Export SDK with progaurd、OTA更新、反編譯系統framework去除系統狀態列及虛擬按鈕、Custum UI";
+  String get project_gemtek_4_skill => "Android launcher、Rxjava2、Databinding、MVVM、MQTT、Export SDK with progaurd、OTA更新、反編譯系統framework去除系統狀態列及虛擬按鈕、Custum UI";
   @override
   String get contact_me => "聯絡我";
   @override
@@ -249,7 +249,7 @@ class $zh_TW extends S {
   @override
   String get project_ntust_2_image => "";
   @override
-  String get project_gemtek_5_skill => "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、Custum UI\nFirebase : Cloud Message, Realtime DB, Authentication, \nGoogle: Map, Google analytics\n";
+  String get project_gemtek_5_skill => "Rxjava2、Databinding、MVVM、Glide、Room DB、AccessibilityService、Custum UI\nFirebase : Cloud Message, Realtime DB, Authentication, \nGoogle: Map, Google analytics\n";
   @override
   String get project_gemtek_8_info => "優化先前的Kid守護王，算是完全由我們team規劃、決定功能、討論架構的APP";
   @override
@@ -257,7 +257,7 @@ class $zh_TW extends S {
   @override
   String get project_gemtek_8_image_cover => "res/assets/image/project_SPAK_cover.jpg";
   @override
-  String get project_gemtek_5_info => "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。";
+  String get project_gemtek_5_info => "與台灣大哥大合作，協助家長管理孩童使用手機的習慣，同一隻APP可設定為家長版與小孩版，功能包含可從家長版取得孩童的當前位置、使用APP的時長，觀看的網頁、可限制孩童使用APP的時間、限制孩童觀看網頁的類別。\n此專案採敏捷式開發，利用看板模式執行Scrum。";
   @override
   String get project_other_2_skill => "Flutter dart, RWD, Html";
   @override
@@ -305,7 +305,7 @@ class $zh_TW extends S {
   @override
   String get contact_me_input_name_hint => "如何稱呼您？";
   @override
-  String get project_gemtek_3_skill => "Rxjava、Databinding、MVVM、Java8 lambda";
+  String get project_gemtek_3_skill => "Rxjava2、Databinding、MVVM、Java8 lambda";
   @override
   String get hello_text => "Hi!我是唐雪玲 :)";
   @override
@@ -321,7 +321,7 @@ class $zh_TW extends S {
   @override
   String get education_yzu_otherInfo => "榮獲『元智大學有庠獎學金第二名』(2013)、『元智大學優良義工獎』(2013)、『元智大學有庠獎學金第三名』(2014)、『概念性產品競賽優等』(2015)";
   @override
-  String get project_other_1_skill => "Rxjava、Jsoup";
+  String get project_other_1_skill => "Rxjava2、Jsoup";
   @override
   String get education_yzu_schoolName => "元智大學/資訊工程學系";
   @override
@@ -337,7 +337,7 @@ class $zh_TW extends S {
   @override
   String get project_ntust_2_skill => "Android JAVA(SIP Voip, REST API, Google Map)";
   @override
-  String get title => "唐雪玲的個人網站";
+  String get title => "唐雪玲 - 個人履歷網站";
   @override
   String get working_gemteks_info => "Android工程師，撰寫多項專案，含開發及維護";
   @override
@@ -347,7 +347,7 @@ class $zh_TW extends S {
   @override
   String get working_sinica_time => "Feb 2014 ~ Feb 2015";
   @override
-  String get project_gemtek_7_skill => "BLE藍芽連線、Rxjava、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n";
+  String get project_gemtek_7_skill => "BLE藍芽連線、Rxjava2、Databinding、MVVM、Glide、Room DB、Java8 lambda、LiveData, Lifecycle ViewModel、Custum UI\nAWS: AWS Cognito,AWS Iot, pinpoint, notification \n";
   @override
   String get project_sinica_info => "使用JAVA撰寫影像辨識，搭配webcam與使用者互動，即時切割且辨識使用者手中的書籍圖示編號傳給後端呈現電子書內容，此專案有實際運用於該展覽當中，成為該展覽的數位互動裝置之一。";
   @override
@@ -373,11 +373,11 @@ class $zh_TW extends S {
   @override
   String get project_other_3_url_text => "點擊下載在校專案實作列表";
   @override
-  String get project_gemtek_8_skill => "Rxjava、Databinding、MVVM、Glide、Room DB、AccessibilityService、viewpager2、Java8 lambda、LiveData, Lifecycle ViewModel、Apollo GraphQL、Navigation、Custum UI、Offline First\nFirebase : Cloud Message, Authentication, \nSocial Login: Facebook, Line\n";
+  String get project_gemtek_8_skill => "Rxjava2、Databinding、MVVM、Glide、Room DB、AccessibilityService、viewpager2、Java8 lambda、LiveData, Lifecycle ViewModel、Apollo GraphQL、Navigation、Custum UI、Offline First\nFirebase : Cloud Message, Authentication, \nSocial Login: Facebook, Line\n";
   @override
   String get project_ntust_1_skill => "C/C++(openCV, openPCL)、Matlab、python(Keras)";
   @override
-  String get project_gemtek_1_skill => "Rxjava、Databinding、Reservoir、Custum UI、MVVM、Retrofit2、Java8 lambda\nSocial Login：Google、Facebook、Twitter\nUSB connection (連結耳機)、讀懂Datasheet並且調整數值write to device(CP2615)\nExport SDK with progaud（提供串接耳機的SDK給客戶使用）\n";
+  String get project_gemtek_1_skill => "Rxjava2、Databinding、Reservoir、Custum UI、MVVM、Retrofit2、Java8 lambda\nSocial Login：Google、Facebook、Twitter\nUSB connection (連結耳機)、讀懂Datasheet並且調整數值write to device(CP2615)\nExport SDK with progaud（提供串接耳機的SDK給客戶使用）\n";
   @override
   String get project_other_3_image_cover => "";
   @override

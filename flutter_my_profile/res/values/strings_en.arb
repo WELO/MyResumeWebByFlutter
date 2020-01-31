@@ -7,13 +7,13 @@
   "choose_TW": "Traditional Chinese",
   "hello_text": "I am Amy :)",
   "about_me": "About Me",
-  "introduction": "An Android development engineer who is enthusiastic about Coding and loves to understand new technologies. I like to discusses the software architecture and thinking about how to decouple classes and keep the program readable with working partners. I also often works with teams in different fields and has good communication skills.",
+  "introduction": "An Android developer with 2 years experience who is enthusiastic about Coding and loves to understand new technologies. A positive person who likes to discuss software architecture and thinking about how to decouple classes and keep the program readable with working partners. Often working with teams in different fields and have good communication skills.",
   "skill": "Skill",
 
 
   "programming_language": "Programming Language",
   "programming_language_JAVA": "Android JAVA",
-  "programming_language_JAVA_info": "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line",
+  "programming_language_JAVA_info": "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, Fabric \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber, ijkplayer(for RTSP)\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line",
   "programming_language_other_lang": "Other",
   "programming_language_other_info": " C/C++(OpenCV, OpenGL, OpenPCL), Matlab, Python, R, Unity 3D, C#, HTML, Flutter(for this web site)",
 
@@ -48,7 +48,7 @@
 
   "project_ntust_2_name": "「魔術通」Android SIP APP",
   "project_ntust_2_info": "產學合作，為冠北公司撰寫完成企業版及社區版，在學期間使用Git版本控管及學習與企業溝通協調的能力。",
-  "project_ntust_2_skill": "Android JAVA(SIP Voip, REST API, Google Map)",
+  "project_ntust_2_skill": "SIP Voip, REST API, Google Map, ijkplayer(for RTSP)",
   "project_ntust_2_image_cover": "",
   "project_ntust_2_image": "",
 

@@ -51,12 +51,12 @@ class S implements WidgetsLocalizations {
   String get education_yzu_schoolName => "Dept. of CSE, Yuan Ze University, Taoyuan, Taiwan";
   String get education_yzu_time => "Sep 2011 ~ June 2015";
   String get hello_text => "I am Amy :)";
-  String get introduction => "An Android development engineer who is enthusiastic about Coding and loves to understand new technologies. I like to discusses the software architecture and thinking about how to decouple classes and keep the program readable with working partners. I also often works with teams in different fields and has good communication skills.";
+  String get introduction => "An Android developer with 2 years experience who is enthusiastic about Coding and loves to understand new technologies. A positive person who likes to discuss software architecture and thinking about how to decouple classes and keep the program readable with working partners. Often working with teams in different fields and have good communication skills.";
   String get language_ability => "Language Ability";
   String get language_ability_info => "Chinese(Mother tongue), English(TOEIC 735), Japanese(N5)";
   String get programming_language => "Programming Language";
   String get programming_language_JAVA => "Android JAVA";
-  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
+  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, Fabric \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber, ijkplayer(for RTSP)\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
   String get programming_language_other_info => " C/C++(OpenCV, OpenGL, OpenPCL), Matlab, Python, R, Unity 3D, C#, HTML, Flutter(for this web site)";
   String get programming_language_other_lang => "Other";
   String get project_gemtek_1_image_cover => "res/assets/image/project_soundot_cover.jpg";
@@ -106,7 +106,7 @@ class S implements WidgetsLocalizations {
   String get project_ntust_2_image_cover => "";
   String get project_ntust_2_info => "產學合作，為冠北公司撰寫完成企業版及社區版，在學期間使用Git版本控管及學習與企業溝通協調的能力。";
   String get project_ntust_2_name => "「魔術通」Android SIP APP";
-  String get project_ntust_2_skill => "Android JAVA(SIP Voip, REST API, Google Map)";
+  String get project_ntust_2_skill => "SIP Voip, REST API, Google Map, ijkplayer(for RTSP)";
   String get project_other_1_image => "";
   String get project_other_1_image_cover => "res/assets/image/project_savenoval_cover.jpg";
   String get project_other_1_info => "填入Lofter或AO3小說的網址，即可在選擇的資料夾內儲存txt檔案，爬取網頁時會包含作者名及大綱與原文，若AO3為多章節小說，也會將多個章節儲存於同一個txt檔中。";
@@ -193,7 +193,7 @@ class $zh_TW extends S {
   @override
   String get education_ntust_time => "Sep 2015 ~ June 2017";
   @override
-  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
+  String get programming_language_JAVA_info => "MVVM, Rxjava2, Retrofit2, RESTful API, GraphQL, BLE, USB connect, Voip SIP, viewpager2, Java8 lambda, Export SDK with proguard, Fabric \n\n3-rd party：\nReservoir, Glide, ButterKnife, MapBox, Apollo GraphQL, Gson, AutoValue, Timber, ijkplayer(for RTSP)\n\nAndroid Jetpack:\nAndroidx, DataBinding, LiveData, Lifecycle ViewModel, Room DB, Navigation\n\nGoogle: \nMap, google analytics, \n\nFirebase : \nCloud Message, Realtime DB, Authentication, Storage\n\nAmazon Web Service(AWS):\nAWS Cognito,AWS Iot, pinpoint, notification \n\nSocial Login:\nGoogle, Twitter, Facebook, Line";
   @override
   String get project_other_1_image => "";
   @override
@@ -335,7 +335,7 @@ class $zh_TW extends S {
   @override
   String get contact_me_my_info => "我的資訊";
   @override
-  String get project_ntust_2_skill => "Android JAVA(SIP Voip, REST API, Google Map)";
+  String get project_ntust_2_skill => "SIP Voip, REST API, Google Map, ijkplayer(for RTSP)";
   @override
   String get title => "唐雪玲 - 個人履歷網站";
   @override
